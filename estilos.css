@@ -1,0 +1,75 @@
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desatured-blue: hsl(229, 97%, 48%);
+    --Dark-grayish-blue: hsl(227,10%, 46%);
+}    
+h1 {
+    color: var(--very-dark-desatured-blue);
+    margin: 0;
+    font-size: 25px;
+}
+
+h1 span {
+    color: var(--Dark-grayish-blue);
+    font-weight: 400;
+    margin-top: 25;
+    margin-left: 5px;
+}
+
+h2 {
+    color: var(--Dark-grayish-blue);
+    font-weight: 400;
+    font-size: 20;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.cuerpo {
+    background-color: var(--dark-cyan) ;
+    background-image: url(./bg-pattern-top.svg), url(./bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: left -30% top 90%, right -20% bottom 250%;
+    padding: 50px;
+    font-family: "Kumbh Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: white url("./bg-pattern-card.svg") repeat-x;
+    border-radius: 20px;
+    /*background-repeat: repeat no-repeat;*/
+    overflow: hidden;
+    text-align: center;
+    padding-top: 80px;
+    max-width: 375px;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.image {
+  border-radius: 50%;
+  border: 8px solid rgb(255, 255, 255);
+}
+
+.social {
+    /*display: inline;*/
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid rgb(221, 217, 217);
+    padding: 10px 0;
+    /*background: red;*/
+
+}
+
+.social h3 {
+    font-size: 22px;
+}
+
+.social h3 small {
+    margin-top: 8px;
+    display: block;
+    color: var(--Dark-grayish-blue);
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
